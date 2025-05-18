@@ -1,0 +1,26 @@
+
+
+James Butcher
+5/18/25
+
+
+In terminal:
+
+> uv init .
+> uv add langgrah
+> uv add langchain-ollama
+> uv run --with jupyter jupyter lab
+
+
+
+To show hidden files in left file explorer panel:
+- In terminal: 
+    > jupyter notebook --generate-config
+
+- Open the file printed to the terminal
+- Find the line "# c.ContentsManager.allow_hidden = False"
+- Change it to True and uncomment it
+- Restart jupyter lab
+- Now you can go to View -> Show Hidden Files
+
+
